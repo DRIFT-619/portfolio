@@ -1,23 +1,33 @@
 export default function Home() {
   return (
     <main className="flex-1 flex flex-col justify-center px-6">
-      <div className="max-w-6xl mx-auto w-full py-12">
-        <p className="font-mono text-m text-muted-foreground mb-6">
+      <div className="max-w-6xl mx-auto w-full py-11">
+        <p className="font-mono text-m text-muted-foreground mb-4 tracking-wide">
           Ayush Saxena - Data Scientist / ML / AI Engineer
         </p>
 
         <h1 className="text-4xl md:text-5xl font-semibold leading-tight mb-4">
-          <span className="text-foreground">Good engineering isn't about writing more code.</span>
+          <span className="text-foreground">Professionalism is seen in how a person lives.</span>
           <br />
           <span className="text-muted-foreground">
-            It's about making better decisions.
+            Not in what is shown on the surface.
           </span>
         </h1>
 
-        <p className="text-white md:text-1xl mb-16 leading-relaxed">
-          To me, engineering is the art of making thoughtful decisions under real-world constraints.<br/>
-          Every system is a series of trade-offs between simplicity and complexity, speed and reliability, innovation and practicality.<br/>
-          That's the part of engineering I enjoy most.
+        <p className="text-muted-foreground md:text-1xl mb-4 leading-relaxed">
+          Hi, I'm <span className="text-foreground">Ayush</span> -- and before you go further, here's what this site actually is. <br/>
+          This website is <span className="text-foreground">not</span> an engineering or philosophy blog. <br/>
+          <span className="text-foreground">Nor</span> is this an <span className="text-foreground">autobiography</span> about my life and my work. <br/>
+          This website aims to dive deeper and answer the questions an HR professional or a Technical Lead might have before deciding whether to <span className="text-foreground">hire me.</span>
+        </p>
+
+        <p className="text-muted-foreground md:text-1xl mb-4 leading-relaxed">
+          This site is built to be read, <span className="text-foreground">not skimmed.</span> Give it a few minutes and it will answer questions your usual resume <span className="text-foreground">can't.</span> <br/>
+        </p>
+
+        <p className="text-muted-foreground md:text-1xl mb-4 leading-relaxed">
+          Considering there might be audiences from different backgrounds with different intentions I have divided this website into <span className="text-foreground">2 different paths.</span> <br/>
+          The following question will help you choose the <span className="text-foreground">right path.</span>
         </p>
 
         <p className="font-mono text-xl md:text-2xl text-foreground font-medium mb-2 text-center">

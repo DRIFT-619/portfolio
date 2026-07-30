@@ -9,12 +9,18 @@ export default function Navbar() {
             <span className="flex items-center justify-center w-7 h-7 rounded-full bg-white text-accent text-sm font-semibold font-sans">
               A
             </span>
-            <span className="text-sm font-medium text-foreground">
+            <span className="text-m font-medium text-foreground">
               Ayush Saxena
             </span>
           </Link>
 
-          <div className="flex items-center gap-6 text-sm">
+          <div className="flex items-center gap-6 text-m">
+            <Link
+              href="/"
+              className="text-muted-foreground hover:text-foreground transition-colors"
+            >
+              Home
+            </Link>
             <Link
               href="/about"
               className="text-muted-foreground hover:text-foreground transition-colors"
