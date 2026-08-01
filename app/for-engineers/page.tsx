@@ -1,9 +1,12 @@
 import ApproachSection from "@/components/ApproachSection";
+import BackButton from "@/components/BackButton";
 
 export default function ForEngineers() {
   return (
     <main className="flex-1 px-6">
       <div className="max-w-6xl mx-auto w-full py-12">
+
+        <BackButton />
 
         <p className="font-mono text-muted-foreground leading-relaxed mb-10 text-justify max-w-3xl">
           Hi, before you go further, here&apos;s what this page is about. <br/> Its
@@ -18,7 +21,7 @@ export default function ForEngineers() {
         
         <ApproachSection />
           
-        <h2 className="text-3xl font-semibold text-foreground mb-8">
+        <h2 className="text-3xl font-semibold text-foreground mb-10">
           What you can expect from working with me
         </h2>
 
@@ -56,7 +59,7 @@ export default function ForEngineers() {
             <p className="text-sm text-muted-foreground text-justify leading-relaxed">
               On a retail demand forecasting pipeline, a Random Forest model
               beat complex neural networks like LSTM and GRU by 60% on time
-              series data. I shipped the Random Forest.
+              series data. I documented that without hesitation.
             </p>
           </div>
 
@@ -116,47 +119,49 @@ export default function ForEngineers() {
           </div>
 
           <div className="rounded-lg border border-muted-foreground p-6">
-            <p className="font-mono text-lg text-foreground mb-3">Growth</p>
+            <p className="font-mono text-lg text-foreground mb-3">Maturity</p>
             <p className="text-foreground font-medium mb-2">
-              I have had to become a generalist out of necessity, and I treat that as a strength.
+              You can trust me with your codebase
             </p>
             <p className="text-sm text-muted-foreground text-justify leading-relaxed">
-              Shipping my own projects has meant extracting insights as a
-              data scientist, training models as an ML engineer, deploying
-              and monitoring systems as a backend and DevOps engineer, and building this
-              site as a frontend engineer. Each was learned because a real
-              project needed it.
+              Every experiment I run is tracked, not just remembered. On the demand
+              forecasting and bankruptcy projects, every model, parameter, and metric
+              was logged through MLflow before anything was called final, so a change
+              that helps or hurts is provable, not a guess. Deployments run through
+              Docker and CI/CD rather than manual pushes, so what gets tested is
+              exactly what gets shipped. Small changes get committed and reviewed
+              step by step, not bundled into one large, unreviewable difference.
             </p>
           </div>
         </div>
 
-        <h2 className="text-3xl font-semibold text-foreground mb-6">
+        <h2 className="text-3xl font-semibold text-foreground mb-8">
           Case studies
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-12">
           <a href="/work/financial-risk-analyst" className="rounded-lg border border-muted-foreground p-6 hover:border-accent transition-colors">
             <p className="text-foreground text-lg font-medium mb-2">AI Financial Risk Analyst</p>
-            <p className="text-sm text-muted-foreground">Multi-agent hybrid RAG system, 49% relevance gain, 62.5% latency reduction</p>
+            <p className="text-m text-muted-foreground">Multi-agent hybrid RAG system, 49% relevance gain, 62.5% latency reduction</p>
           </a>
 
           <a href="/work/demand-forecasting" className="rounded-lg border border-muted-foreground p-6 hover:border-accent transition-colors">
             <p className="text-foreground text-lg font-medium mb-2">Retail Demand Forecasting Pipeline</p>
-            <p className="text-sm text-muted-foreground">Random Forest beat LSTM by 60%, deployed on AWS with CI/CD</p>
+            <p className="text-m text-muted-foreground">Random Forest beat LSTM by 60%, deployed on AWS with CI/CD</p>
           </a>
 
           <a href="/work/bankruptcy-prediction" className="rounded-lg border border-muted-foreground p-6 hover:border-accent transition-colors">
             <p className="text-foreground text-lg font-medium mb-2">Bankruptcy Risk Prediction</p>
-            <p className="text-sm text-muted-foreground">XGBoost, ROC-AUC 0.96, SHAP-driven explainability</p>
+            <p className="text-m text-muted-foreground">XGBoost, ROC-AUC 0.96, SHAP-driven explainability and a hyperparameter tune that made things worse</p>
           </a>
 
           <a href="/work/train-delay-prediction" className="rounded-lg border border-muted-foreground p-6 hover:border-accent transition-colors">
             <p className="text-foreground text-lg font-medium mb-2">Train Delay Prediction</p>
-            <p className="text-sm text-muted-foreground">Caught and reversed a preprocessing mistake mid-project</p>
+            <p className="text-m text-muted-foreground">Caught and reversed a preprocessing mistake mid-project</p>
           </a>
         </div>
 
-        <div className="text-center mb-12">
+        <div className="text-center mb-8">
           <p className="text-muted-foreground text-lg mb-3">
             Wanna explore more of my work?
           </p>
@@ -165,10 +170,28 @@ export default function ForEngineers() {
           </a>
         </div>
 
+        <div className="text-center mb-8">
+          <p className="text-muted-foreground text-lg mb-3">
+            Want to look at the actual code?
+          </p>
+          <a href="https://github.com/DRIFT-619" className="font-mono text-m text-white hover:opacity-80 transition-opacity">
+            View my GitHub repo
+          </a>
+        </div>
+          
+        <p className="text-lg text-justify text-muted-foreground mb-12">
+          <span className="underline text-foreground">Note:</span> Curious about my formal qualifications, achievements, the full technical stack
+          I have worked with, or the type of roles I am targeting? <br/> Find that on the{" "}
+          <a href="/about" className="text-foreground hover:opacity-80 transition-opacity">
+            About
+          </a>{" "}
+          page.
+        </p>
+
         <h2 className="text-3xl font-semibold text-foreground mb-4">
           What I am building right now
         </h2>
-        <p className="text-muted-foreground leading-relaxed max-w-6xl mb-6">
+        <p className="text-muted-foreground text-justify text-lg leading-relaxed max-w-6xl mb-6">
           A real-time e-commerce analytics and recommendation engine. Kafka
           for event streaming, Spark Structured Streaming for real-time
           aggregation, Snowflake and dbt for the warehouse, Airflow for
@@ -178,10 +201,21 @@ export default function ForEngineers() {
           data platform end to end, the kind of system a data engineering or
           ML platform team actually runs in production.
         </p>
-        <p className="font-mono text-sm text-muted-foreground">
+        <p className="font-mono text-m text-muted-foreground mb-10">
           In progress
         </p>
 
+        <div className="border-t border-foreground pt-10 max-w-36l">
+          <h2 className="text-3xl font-semibold text-foreground mb-4">
+            Didn't get your question answered?
+          </h2>
+          <p className="text-lg text-muted-foreground mb-2">
+            If something here did not add up, or you have a technical question I haven't covered then
+          </p>
+          <a href="/contact" className="font-sans text-2xl text-foreground hover:opacity-80 transition-opacity">
+            here's how to reach me →
+          </a>
+        </div>
       </div>
     </main>
   );
