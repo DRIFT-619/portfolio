@@ -9,8 +9,9 @@ export default function Contact() {
         <h1 className="text-3xl md:text-5xl font-semibold text-foreground mb-6">
           Contact
         </h1>
-        <p className="text-muted-foreground text-lg leading-relaxed mb-10 max-w-2xl">
-          Placeholder: a short line inviting recruiters or engineers to reach out.
+        <p className="text-muted-foreground text-lg leading-relaxed mb-12 max-w-2xl">
+          However you found your way here, recruiter, engineer, or otherwise, feel
+          free to reach out directly. I check all of these regularly.
         </p>
 
         <div className="space-y-4">
@@ -19,7 +20,7 @@ export default function Contact() {
             <span className="text-foreground text-lg">reignofayush@gmail.com</span>
           </a>
 
-          <a className="flex items-center gap-3 rounded-lg border border-foreground p-5 hover:border-accent transition-colors">
+          <a href="tel:+918585064238" className="flex items-center gap-3 rounded-lg border border-foreground p-5 hover:border-accent transition-colors">
             <span className="font-mono text-lg text-foreground font-medium">Phone No.:</span>
             <span className="text-foreground text-lg">+91 8585064238</span>
           </a>

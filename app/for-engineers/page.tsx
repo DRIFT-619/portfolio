@@ -129,7 +129,7 @@ export default function ForEngineers() {
               was logged through MLflow before anything was called final, so a change
               that helps or hurts is provable, not a guess. Deployments run through
               Docker and CI/CD rather than manual pushes, so what gets tested is
-              exactly what gets shipped. Small changes get committed and reviewed
+              exactly what gets shipped. Small changes get committed to GitHub and reviewed
               step by step, not bundled into one large, unreviewable difference.
             </p>
           </div>
