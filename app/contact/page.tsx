@@ -3,13 +3,13 @@ import BackButton from "@/components/BackButton";
 export default function Contact() {
   return (
     <main className="flex-1 px-6">
-      <div className="max-w-3xl mx-auto w-full py-24">
+      <div className="max-w-3xl mx-auto w-full py-12">
         <BackButton />
 
         <h1 className="text-3xl md:text-5xl font-semibold text-foreground mb-6">
           Contact
         </h1>
-        <p className="text-muted-foreground text-lg leading-relaxed mb-12 max-w-2xl">
+        <p className="text-muted-foreground text-lg leading-relaxed mb-6 max-w-2xl">
           However you found your way here, recruiter, engineer, or otherwise, feel
           free to reach out directly. I check all of these regularly.
         </p>

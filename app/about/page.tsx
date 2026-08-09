@@ -3,7 +3,7 @@ import BackButton from "@/components/BackButton";
 export default function About() {
   return (
     <main className="flex-1 px-6">
-      <div className="max-w-3xl mx-auto w-full py-24">
+      <div className="max-w-3xl mx-auto w-full py-12">
 
         <BackButton />
 
@@ -148,6 +148,13 @@ export default function About() {
           </div>
         </section>
 
+        <section className="mb-8">
+          <p className="font-mono text-2xl text-foreground mb-4">Concepts I am familiar with</p>
+          <div className="flex flex-wrap gap-x-4 gap-y-3 items-baseline">
+            <span className="text-muted-foreground text-lg font-medium">Placeholder</span>
+          </div>
+        </section>
+
         <section className="mb-10">
           <p className="font-mono text-2xl text-foreground mb-4">What I am learning right now</p>
           <div className="flex flex-wrap gap-x-4 gap-y-3 items-baseline">
@@ -158,6 +165,7 @@ export default function About() {
             <span className="text-muted-foreground text-base">Airflow</span>
             <span className="text-muted-foreground text-sm">Next.js</span>
             <span className="text-muted-foreground text-sm">TypeScript</span>
+            <span className="text-muted-foreground text-sm">LLD</span>
           </div>
         </section>
 

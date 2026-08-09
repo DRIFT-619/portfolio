@@ -8,11 +8,37 @@ export default function ForEngineers() {
 
         <BackButton />
 
+        <h2 className="text-3xl font-semibold text-foreground mb-8">
+          What to expect from this page?
+        </h2>
+
         <p className="font-mono text-muted-foreground leading-relaxed mb-10 text-justify max-w-3xl">
-          Hi, before you go further, here&apos;s what this page is about. <br/> Its
+          Hi, before you evaluate, here&apos;s what this page is about. <br/> Its
           purpose is to build trust and remove doubts from a technical
           perspective, and to give you insight into how I actually think
           when I&apos;m handed a new problem.
+        </p>
+
+        <h2 className="text-3xl font-semibold text-foreground mb-8">
+          How is the above expectation fulfilled?
+        </h2>
+
+        <p className="font-mono text-muted-foreground leading-relaxed mb-10 text-justify max-w-3xl">
+          To fulfill the expectation, the content of this page is presented in a way that resolves 
+          the underlying doubt: "will this guy be able to tackle a real world problem he has never 
+          seen before?". <br/> <br/>
+
+          A knowledge quiz wouldn't work here, questions like "what is encapsulation?" or "when would 
+          you use a t-test over a z-test?" can't capture real thinking, and a resume line like "I know 
+          Data Science" proves even less, since without a real test, anyone can claim anything. <br/> <br/>
+
+          So instead, this page uses the work I have already done as proof, and walks through my actual 
+          thought process when I'm handed a new problem with an example. AI has made syntax cheap. The way 
+          we write code today can be replaced. Clear, innovative thinking can't. <br/> <br/>
+
+          What follows should give you enough to decide whether I'm worth a technical interview, one where 
+          you can see how deeply I actually understand the stacks I've worked with, and whether I'd be a 
+          good technical fit for your team.
         </p>
         
         {/* <h1 className="text-3xl md:text-5xl font-semibold leading-tight mb-8 text-foreground">
@@ -179,9 +205,14 @@ export default function ForEngineers() {
           </a>
         </div>
           
+        <p className="text-lg text-justify text-muted-foreground mb-2">
+          <span className="underline text-foreground">Note:</span> Curious about my formal qualifications, 
+          achievements, the full technical stack
+          I have worked with, or the type of roles I am targeting? <br/> 
+        </p>
+          
         <p className="text-lg text-justify text-muted-foreground mb-12">
-          <span className="underline text-foreground">Note:</span> Curious about my formal qualifications, achievements, the full technical stack
-          I have worked with, or the type of roles I am targeting? <br/> Find that on the{" "}
+          Find that on the{" "}
           <a href="/about" className="text-foreground hover:opacity-80 transition-opacity">
             About
           </a>{" "}
@@ -189,7 +220,7 @@ export default function ForEngineers() {
         </p>
 
         <h2 className="text-3xl font-semibold text-foreground mb-4">
-          What I am building right now
+          What I am building / learning right now
         </h2>
         <p className="text-muted-foreground text-justify text-lg leading-relaxed max-w-6xl mb-6">
           A real-time e-commerce analytics and recommendation engine. Kafka
@@ -199,8 +230,12 @@ export default function ForEngineers() {
           Grafana for observability. My other projects prove I can build and
           evaluate models. This one is about proving I can operate a full
           data platform end to end, the kind of system a data engineering or
-          ML platform team actually runs in production.
+          ML platform team actually runs in production. <br/> <br/>
+
+          Along with this, I am learning JavaScript for Backend developemt and 
+          I aim to start learning low-level design (LLD) as soon as possible.
         </p>
+        
         <p className="font-mono text-m text-muted-foreground mb-10">
           In progress
         </p>
