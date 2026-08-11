@@ -222,20 +222,22 @@ export default function ForEngineers() {
         <h2 className="text-3xl font-semibold text-foreground mb-4">
           What I am building / learning right now
         </h2>
-        <p className="text-muted-foreground text-justify text-lg leading-relaxed max-w-6xl mb-6">
-          A real-time e-commerce analytics and recommendation engine. Kafka
-          for event streaming, Spark Structured Streaming for real-time
-          aggregation, Snowflake and dbt for the warehouse, Airflow for
-          orchestration, Redis and FastAPI for serving, Prometheus and
-          Grafana for observability. My other projects prove I can build and
-          evaluate models. This one is about proving I can operate a full
-          data platform end to end, the kind of system a data engineering or
-          ML platform team actually runs in production. <br/> <br/>
 
-          Along with this, I am learning JavaScript for Backend developemt and 
-          I aim to start learning low-level design (LLD) as soon as possible.
+        <p className="text-muted-foreground text-justify text-lg leading-relaxed max-w-6xl mb-6">
+          A real-time e-commerce analytics and recommendation engine. Kafka for
+          event streaming, Spark Structured Streaming for real-time aggregation,
+          Snowflake and dbt for the warehouse, Airflow for orchestration, Redis and
+          FastAPI for serving, Prometheus and Grafana for observability. My other
+          projects prove I can build and evaluate models. This one is about proving
+          I can operate a full data platform end to end, the kind of system a data
+          engineering or ML platform team actually runs in production.
         </p>
-        
+
+        <p className="text-muted-foreground text-justify text-lg leading-relaxed max-w-6xl mb-6">
+          Alongside that, I am picking up JavaScript for backend development, and
+          low-level design (LLD) is next on the list.
+        </p>
+
         <p className="font-mono text-m text-muted-foreground mb-10">
           In progress
         </p>
