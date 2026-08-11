@@ -9,14 +9,12 @@ export default function About() {
 
         {/* ===== ZONE 1: NARRATIVE ===== */}
 
-        <h1 className="text-3xl md:text-5xl font-semibold text-foreground mb-8">
+        <h1 className="text-3xl md:text-5xl text-justify font-semibold text-foreground mb-8">
           About
         </h1>
 
-        <p className="text-muted-foreground text-lg leading-relaxed mb-8 max-w-2xl">
-          Placeholder: your personal story, how you got into ML/AI, and the
-          throughline connecting your work.
-        </p>
+        {/* ===== DIVIDER ===== */}
+        <div className="border-t border-foreground mb-8" />
 
         <section className="mb-10">
           <h2 className="font-sans text-2xl text-foreground mb-3">Education</h2>
@@ -61,9 +59,17 @@ export default function About() {
 
         <section className="mb-8">
           <h2 className="font-sans text-2xl text-foreground mb-3">Outside of work</h2>
-          <p className="text-muted-foreground leading-relaxed">
-            Placeholder: chess, with the one real insight, not a cliché,
-            plus other personality details you want to share.
+          <p className="font-medium text-m text-muted-foreground text-m text-justify leading-relaxed mb-4">
+            I have competed professionally in Karate, Skating, and Swimming, and I
+            still play Football, Basketball, and Table Tennis for fun. Right now,
+            the sport I take most seriously is Chess, I am rated 1500 rapid on
+            Chess.com and working toward 2500.
+          </p>
+
+          <p className="font-medium text-m text-muted-foreground text-m text-justify leading-relaxed mb-4">
+            I am not going to tell you what these say about my character, that is
+            not something I can prove on a webpage. I would rather just tell you
+            what I actually do, and let you draw your own conclusions.
           </p>
         </section>
 
@@ -142,16 +148,25 @@ export default function About() {
             <span className="text-muted-foreground text-base">MLflow</span>
             <span className="text-muted-foreground text-base">GitHub Actions CI/CD</span>
             <span className="text-muted-foreground text-base">AWS EC2</span>
+            <span className="text-muted-foreground text-base">Github</span>
             <span className="text-muted-foreground text-sm">Streamlit</span>
             <span className="text-muted-foreground text-sm">Render</span>
-            <span className="text-muted-foreground text-sm">Git</span>
+            <span className="text-muted-foreground text-sm">Vercel</span>
           </div>
         </section>
 
         <section className="mb-8">
           <p className="font-mono text-2xl text-foreground mb-4">Concepts I am familiar with</p>
           <div className="flex flex-wrap gap-x-4 gap-y-3 items-baseline">
-            <span className="text-muted-foreground text-lg font-medium">Placeholder</span>
+            <span className="text-muted-foreground text-lg font-medium">Version Control (Git)</span>
+            <span className="text-muted-foreground text-lg font-medium">DSA</span>
+            <span className="text-muted-foreground text-lg font-medium">Time & Space Complexity</span>
+            <span className="text-muted-foreground text-base font-medium">OOPs</span>
+            <span className="text-muted-foreground text-base font-medium">REST API Design</span>
+            <span className="text-muted-foreground text-base font-medium">System Design (HLD)</span>
+            <span className="text-muted-foreground text-base font-medium">Distributed Systems Basic</span>
+            <span className="text-muted-foreground text-base font-sm">Async Processing</span>
+            <span className="text-muted-foreground text-base font-sm">CAP Theorem</span>
           </div>
         </section>
 

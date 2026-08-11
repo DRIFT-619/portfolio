@@ -7,10 +7,10 @@ export default function Home() {
         </p>
 
         <h1 className="text-4xl md:text-5xl font-semibold leading-tight mb-4">
-          <span className="text-foreground">I prefer Calculation.</span>
+          <span className="text-foreground">You're not here to read my resume.</span>
           <br />
           <span className="text-muted-foreground">
-            Not Reaction.
+            You're here to find out if you can trust it.
           </span>
         </h1>
 
