@@ -54,6 +54,7 @@ export default function About() {
             <li>Ranked 1st, Train Delay Prediction ML challenge, University of Nottingham, 2025</li>
             <li>Ranked 2nd, ECG Signal Processing ML challenge, University of Nottingham, 2025</li>
             <li>Runner-up, Programming Tenacity Boot Camp (C), Cambridge Institute of Technology, 2022</li>
+            <li>Bronze Medal, 7th International Karate Championship, 2016</li>
           </ul>
         </section>
 
