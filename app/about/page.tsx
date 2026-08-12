@@ -239,7 +239,7 @@ export default function About() {
           <div className="flex gap-4 mb-8">
             
               
-            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="rounded-md bg-foreground text-background px-5 py-2.5 font-medium hover:opacity-90 transition-opacity">
+            <a href="/Ayush_Saxena_Resume.pdf" target="_blank" rel="noopener noreferrer" className="rounded-md bg-foreground text-background px-5 py-2.5 font-medium hover:opacity-90 transition-opacity">
               Download Resume
             </a>
             
