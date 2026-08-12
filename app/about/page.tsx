@@ -51,10 +51,10 @@ export default function About() {
         <section className="mb-10">
           <h2 className="font-sans text-2xl text-foreground mb-3">Achievements</h2>
           <ul className="space-y-2 text-m font-medium text-muted-foreground">
-            <li>Ranked 1st, Train Delay Prediction ML challenge, University of Nottingham, 2025</li>
-            <li>Ranked 2nd, ECG Signal Processing ML challenge, University of Nottingham, 2025</li>
-            <li>Runner-up, Programming Tenacity Boot Camp (C), Cambridge Institute of Technology, 2022</li>
-            <li>Bronze Medal, 7th International Karate Championship, 2016</li>
+            <li><span className="text-foreground">Ranked 1st,</span> Train Delay Prediction ML challenge, Achieved the lowest prediction error (lowest MSE), University of Nottingham, 2025</li>
+            <li><span className="text-foreground">Ranked 2nd,</span> ECG Signal Processing ML challenge, Achieved the second best accuracy, University of Nottingham, 2025</li>
+            <li><span className="text-foreground">Runner-up,</span> Programming Tenacity Boot Camp (C), Cambridge Institute of Technology, 2022</li>
+            <li><span className="text-foreground">Bronze Medal,</span> 7th International Karate Championship, 2016</li>
           </ul>
         </section>
 
