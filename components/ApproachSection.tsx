@@ -8,7 +8,7 @@ export default function ApproachSection() {
   const steps = [
     { title: "Understanding what is actually being asked", example: "Knowing the real business question behind a metric before picking a model." },
     { title: "Defining what needs to be done", example: "Clarifying whether the goal is improving accuracy, reducing latency, or something else entirely." },
-    { title: "Understanding the problem from first principle", example: "Reading relevant articles, papers, or documentation before assuming an approach." },
+    { title: "Understanding the problem from first principles", example: "Reading relevant articles, papers, or documentation before assuming an approach." },
     { title: "Sketching a rough idea of the solution", example: "Identifying the underlying pattern behind the problem." },
     { title: "Establishing a baseline", example: "Writing code to pass a sample test case, or training a simple linear model first." },
     { title: "Iterating with justification", example: "Reasoning about what to try next and understanding the tradeoffs of each change." },
