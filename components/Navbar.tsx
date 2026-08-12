@@ -41,7 +41,7 @@ export default function Navbar() {
             >
               Contact
             </Link>
-            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="rounded-md bg-foreground text-background px-3.5 py-1.5 font-medium hover:opacity-90 transition-opacity">
+            <a href="/Ayush_Saxena_Resume.pdf" target="_blank" rel="noopener noreferrer" className="rounded-md bg-foreground text-background px-3.5 py-1.5 font-medium hover:opacity-90 transition-opacity">
               Resume
             </a>
 
