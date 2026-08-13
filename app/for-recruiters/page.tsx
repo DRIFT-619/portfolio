@@ -162,11 +162,14 @@ export default function ForRecruiters() {
 
         <p className="text-muted-foreground text-lg text-justify leading-relaxed mb-4 max-w-3xl">
           What I want in three words: <span className="text-foreground font-medium">meaningful, challenging work</span>.
-          At this stage in my career, income, benefits, and leave count are not my priority. What I am chasing is
-          learning, growth, and trajectory, and the work I do matters more to me than the job title on it. I am
-          young, and I believe prioritizing that now, while I can afford to, will take me far later. Whether the
-          company is an early-stage startup or an established, stable workplace, my priority stays the same: I
-          want to <span className="text-foreground font-medium">make real impact from day one</span>.
+          At this stage in my career, income, benefits, and leave count are not my priority. That does not mean
+          compensation does not matter, it is just not the first thing I optimise for when evaluating an 
+          opportunity. I'd rather understand the role, the problems I'd be solving, and the team first. If there's 
+          a strong mutual fit, I'm happy to discuss compensation at that stage. What I am chasing is learning, 
+          growth, and trajectory, and the work I do matters more to me than the job title on it. I am young, 
+          and I believe prioritizing that now, while I can afford to, will take me far later. Whether the company 
+          is an early-stage startup or an established, stable workplace, my priority stays the same: I want 
+          to <span className="text-foreground font-medium">make real impact from day one</span>.
         </p>
 
         <p className="text-muted-foreground text-lg text-justify leading-relaxed mb-4 max-w-3xl">
