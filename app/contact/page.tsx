@@ -25,7 +25,7 @@ export default function Contact() {
             <span className="text-foreground text-lg">+91 8585064238</span>
           </a>
 
-          <a href="https://www.linkedin.com/in/ayush-saxena-01084318a/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 rounded-lg border border-foreground p-5 hover:border-accent transition-colors">
+          <a href="https://www.linkedin.com/in/ayush-saxena-ml/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 rounded-lg border border-foreground p-5 hover:border-accent transition-colors">
             <span className="font-mono text-lg text-foreground font-medium">LinkedIn:</span>
             <span className="text-foreground text-lg">Ayush Saxena</span>
           </a>
