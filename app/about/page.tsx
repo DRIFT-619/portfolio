@@ -36,14 +36,25 @@ export default function About() {
           <h2 className="font-sans text-2xl text-foreground mb-3">Experience</h2>
           <div className="space-y-4">
             <div>
-              <p className="text-foreground text-lg">Backend AI Engineering, FlyRank AI</p>
+              <p className="text-foreground text-lg">Backend AI Engineering Intern, <span className="text-muted-foreground">FlyRank AI</span></p>
               <p className="text-m text-muted-foreground">Jul 2026 - Sep 2026</p>
               <p className="text-m text-muted-foreground">Remote</p>
             </div>
             <div>
-              <p className="text-foreground text-lg">Machine Learning Intern, Shaivi Systems</p>
+              <p className="text-foreground text-lg">Machine Learning Intern, <span className="text-muted-foreground">Shaivi Systems</span></p>
               <p className="text-m text-muted-foreground">Nov 2023 - Dec 2023</p>
               <p className="text-m text-muted-foreground">Pune, India</p>
+            </div>
+            <div>
+              <p className="text-foreground text-lg">Control Team Member (FSAI), <span className="text-muted-foreground">Formula Student, University of Nottingham Racing (UoNR)</span></p>
+              <p className="text-m text-muted-foreground">Nov 2024 - May 2025</p>
+              <p className="text-m text-muted-foreground mb-2">Nottingham, UK</p>
+              <p className="text-m text-muted-foreground text-justify leading-relaxed">
+                Explored improvements to throttle control algorithms for an autonomous
+                Formula Student vehicle as part of a supervised research group. The
+                changes tested did not yield measurable performance gains within the
+                project timeline.
+              </p>
             </div>
           </div>
         </section>
