@@ -185,7 +185,7 @@ export const projects: Project[] = [
     title: "Algorithmic Verification of Combinatorial Flips",
     oneLiner: "Custom C++ verification engine, O(n² log M) complexity",
     featured: false,
-    stack: ["C++", "Complexity Analysis"],
+    stack: ["C++", "Algorithm Design", "Complexity Analysis"],
     problem:
       "Flips are a concept from birational geometry used in the Minimal Model Program, and whether a given integer sequence represents a valid flip depends on three conditions grounded in group theory, ring theory, and modular arithmetic, not on anything directly computable by eye. The task was to translate genuinely abstract graduate-level algebra, coprimality of coordinate subsets, positivity constraints, and a modular sum inequality, into a program that could verify any sequence in three or higher dimensions and explain exactly which condition it failed, not just whether it passed.",
     approach: [
