@@ -174,7 +174,7 @@ export const projects: Project[] = [
     ],
     results: [
       "KD-Tree partitioning achieved a global silhouette score of -0.2658 versus -0.2884 for Grid, and a dramatically better local silhouette score of -0.3235 versus -0.7147, confirming that balanced partitions preserved cluster structure noticeably better at the local level.",
-      "Grid partitioning was faster and isolated more true outliers before clustering even began, roughly 2.5 million points flagged as noise versus 3.5 million under KD-Tree, a genuine speed-versus-structure trade-off rather than one method being strictly better.",
+      "Grid partitioning also isolated more outliers before clustering even began (dropping ~6.7M flagged points to ~2.9M via sparse-cell removal), and DBSCAN itself went on to label fewer noise points under Grid than KD-Tree (2.5M vs. 3.5M) once clustering ran.",
       "Correcting the batching strategy from altitude-sorted to KMeans-based fixed a silhouette score of approximately -0.9 into a workable clustering result.",
     ],
     whatIdDoDifferently:
